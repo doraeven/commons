@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<!-- parent -->
+	<parent>
+		<groupId>com.github.doraeven.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>1</version>
+	</parent>
+
+	<!-- project -->
+	<groupId>com.github.doraeven.commons</groupId>
+	<artifactId>commons-parent</artifactId>
+	<version>1.0.0-SNAPSHOT</version>
+	<packaging>pom</packaging>
+
+	<name>commons</name>
+	<description>Motu Commons Components.</description>
+
+	<!-- modules -->
+	<modules>
+		<module>commons-dependencies</module>
+		<module>commons-utils</module>
+		<module>commons-web</module>
+	</modules>
+
+</project>
