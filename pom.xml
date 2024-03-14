@@ -20,11 +20,30 @@
 	<name>commons</name>
 	<description>Motu Commons Components.</description>
 
+	<!-- properties -->
+	<properties>
+		<!-- update in 20240311 -->
+		<!-- dependencies version -->
+		<commons-validator.version>1.8.0</commons-validator.version>
+	</properties>
+
 	<!-- modules -->
 	<modules>
 		<module>commons-dependencies</module>
 		<module>commons-utils</module>
 		<module>commons-web</module>
 	</modules>
+
+	<!-- dependencyManagement -->
+	<dependencyManagement>
+		<dependencies>
+			<!-- commons-validator -->
+			<dependency>
+				<groupId>commons-validator</groupId>
+				<artifactId>commons-validator</artifactId>
+				<version>${commons-validator.version}</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 </project>

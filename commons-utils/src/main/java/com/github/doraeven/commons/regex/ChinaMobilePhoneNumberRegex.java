@@ -80,7 +80,7 @@ public class ChinaMobilePhoneNumberRegex {
 	// Match China Telecom
 	public static final String CHINA_TELECOM_MVNO_NUMBER_REGEX = "^(?:\\+?86)?1(?:70[012]|62\\d)\\d{7}$";
 
-	// ## IoT number
+	// ## IoT number (Internet of Things)
 
 	// Match all
 	public static final String CHINA_ALL_IOT_NUMBER_REGEX = "^(?:\\+?86)?14(?:[14]0|41|[68]\\d)\\d{9}$";
