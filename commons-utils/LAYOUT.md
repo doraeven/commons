@@ -8,6 +8,7 @@
         - |-- ChinaMobilePhoneNumberRegex
       + |-- utils
       + |-- validator
+        - |-- ChinaMobilePhoneNumberValidator
 
 
 + src/main/resources
@@ -19,6 +20,7 @@
       + |-- lang
       + |-- utils
       + |-- validator
+        - |-- ChinaMobilePhoneNumberValidatorTest
 
 
 + src/test/resources

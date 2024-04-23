@@ -22,9 +22,10 @@
 
 	<!-- properties -->
 	<properties>
-		<!-- update in 20240311 -->
+		<!-- update in 20240322 -->
 		<!-- dependencies version -->
 		<commons-validator.version>1.8.0</commons-validator.version>
+		<junit-jupiter.version>5.10.2</junit-jupiter.version>
 	</properties>
 
 	<!-- modules -->
@@ -42,6 +43,15 @@
 				<groupId>commons-validator</groupId>
 				<artifactId>commons-validator</artifactId>
 				<version>${commons-validator.version}</version>
+			</dependency>
+
+			<!-- junit -->
+			<dependency>
+				<groupId>org.junit</groupId>
+				<artifactId>junit-bom</artifactId>
+				<version>${junit-jupiter.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
