@@ -4,6 +4,7 @@
     + com.github.doraeven.commons
       + |-- format
       + |-- lang
+        - |-- Ref
       + |-- regex
         - |-- ChinaMobilePhoneNumberRegex
       + |-- utils
@@ -18,6 +19,7 @@
     + com.github.doraeven.commons.test
       + |-- format
       + |-- lang
+        - |-- RefTest
       + |-- utils
       + |-- validator
         - |-- ChinaMobilePhoneNumberValidatorTest
