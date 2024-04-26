@@ -10,6 +10,7 @@
       + |-- utils
       + |-- validator
         - |-- ChinaMobilePhoneNumberValidator
+        - |-- IPValidator
 
 
 + src/main/resources
@@ -23,6 +24,7 @@
       + |-- utils
       + |-- validator
         - |-- ChinaMobilePhoneNumberValidatorTest
+        - |-- IPValidatorTest
 
 
 + src/test/resources
