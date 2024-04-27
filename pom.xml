@@ -25,7 +25,9 @@
 		<!-- update in 20240322 -->
 		<!-- dependencies version -->
 		<commons-validator.version>1.8.0</commons-validator.version>
+		<jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
 		<junit-jupiter.version>5.10.2</junit-jupiter.version>
+		<mockito.version>5.11.0</mockito.version>
 	</properties>
 
 	<!-- modules -->
@@ -45,11 +47,28 @@
 				<version>${commons-validator.version}</version>
 			</dependency>
 
+			<!-- servlet -->
+			<dependency>
+				<groupId>jakarta.servlet</groupId>
+				<artifactId>jakarta.servlet-api</artifactId>
+				<version>${jakarta.servlet-api.version}</version>
+				<scope>provided</scope>
+			</dependency>
+
 			<!-- junit -->
 			<dependency>
 				<groupId>org.junit</groupId>
 				<artifactId>junit-bom</artifactId>
 				<version>${junit-jupiter.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+
+			<!-- mockito -->
+			<dependency>
+				<groupId>org.mockito</groupId>
+				<artifactId>mockito-bom</artifactId>
+				<version>${mockito.version}</version>
 				<type>pom</type>
 				<scope>import</scope>
 			</dependency>
