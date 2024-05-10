@@ -27,7 +27,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
-					<!-- skip mockito WARNING -->
+					<!-- skip mockito WARNING, only maven -->
 					<!-- WARNING: A Java agent has been loaded dynamically -->
 					<!-- WARNING: If a serviceability tool is in use, please run with -XX:+EnableDynamicAgentLoading 
 						to hide this warning -->

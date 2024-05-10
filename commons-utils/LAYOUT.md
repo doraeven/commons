@@ -3,6 +3,7 @@
 + src/main/java
     + com.github.doraeven.commons
       + |-- format
+        - |-- FileSizeFormat
       + |-- lang
         - |-- Ref
       + |-- regex
@@ -19,6 +20,7 @@
 + src/test/java
     + com.github.doraeven.commons.test
       + |-- format
+        - |-- FileSizeFormatTest
       + |-- lang
         - |-- RefTest
       + |-- utils

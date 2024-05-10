@@ -22,8 +22,11 @@
 
 	<!-- properties -->
 	<properties>
-		<!-- update in 20240322 -->
+		<!-- update in 20240428 -->
 		<!-- dependencies version -->
+		<!-- apache commons -->
+		<!-- https://commons.apache.org/ -->
+		<commons-io.version>2.16.1</commons-io.version>
 		<commons-validator.version>1.8.0</commons-validator.version>
 		<jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
 		<junit-jupiter.version>5.10.2</junit-jupiter.version>
@@ -40,6 +43,13 @@
 	<!-- dependencyManagement -->
 	<dependencyManagement>
 		<dependencies>
+			<!-- commons-io -->
+			<dependency>
+				<groupId>commons-io</groupId>
+				<artifactId>commons-io</artifactId>
+				<version>${commons-io.version}</version>
+			</dependency>
+
 			<!-- commons-validator -->
 			<dependency>
 				<groupId>commons-validator</groupId>

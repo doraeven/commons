@@ -20,6 +20,12 @@
 
 	<!-- dependencies -->
 	<dependencies>
+		<!-- commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+		</dependency>
+
 		<!-- commons-validator -->
 		<dependency>
 			<groupId>commons-validator</groupId>
