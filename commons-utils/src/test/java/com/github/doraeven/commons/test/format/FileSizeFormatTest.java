@@ -71,7 +71,7 @@ public class FileSizeFormatTest {
 		Assertions.assertEquals("930 B", FileSizeFormat.humanReadableByteCount(930, Locale.getDefault()));
 		Assertions.assertEquals("1023 B", FileSizeFormat.humanReadableByteCount(1023, Locale.GERMAN));
 		Assertions.assertEquals("1.1 KiB", FileSizeFormat.humanReadableByteCount(1225, 1));
-		Assertions.assertEquals("1.002 kB", FileSizeFormat.humanReadableByteCount(1027, true, 3, Locale.getDefault()));
+		Assertions.assertEquals("1.027 kB", FileSizeFormat.humanReadableByteCount(1027, true, 3, Locale.getDefault()));
 	}
 
 	@Test
