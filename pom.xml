@@ -35,7 +35,7 @@
 
 	<!-- modules -->
 	<modules>
-		<module>commons-dependencies</module>
+		<module>commons-bom</module>
 		<module>commons-utils</module>
 		<module>commons-web</module>
 	</modules>

@@ -12,10 +12,10 @@
 	</parent>
 
 	<!-- module -->
-	<artifactId>commons-dependencies</artifactId>
+	<artifactId>commons-bom</artifactId>
 	<packaging>pom</packaging>
 
-	<name>commons-dependencies</name>
+	<name>commons-bom</name>
 	<description>Motu Commons Dependencies.</description>
 
 	<!-- properties -->
