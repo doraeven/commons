@@ -22,15 +22,15 @@
 
 	<!-- properties -->
 	<properties>
-		<!-- update in 20240428 -->
+		<!-- update in 20240628 -->
 		<!-- dependencies version -->
 		<!-- apache commons -->
 		<!-- https://commons.apache.org/ -->
 		<commons-io.version>2.16.1</commons-io.version>
-		<commons-validator.version>1.8.0</commons-validator.version>
-		<jakarta.servlet-api.version>6.0.0</jakarta.servlet-api.version>
-		<junit-jupiter.version>5.10.2</junit-jupiter.version>
-		<mockito.version>5.11.0</mockito.version>
+		<commons-validator.version>1.9.0</commons-validator.version>
+		<jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
+		<junit-jupiter.version>5.10.3</junit-jupiter.version>
+		<mockito.version>5.12.0</mockito.version>
 	</properties>
 
 	<!-- modules -->
