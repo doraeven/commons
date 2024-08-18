@@ -14,7 +14,7 @@
 	<!-- project -->
 	<groupId>com.github.doraeven.commons</groupId>
 	<artifactId>commons-parent</artifactId>
-	<version>1.0.0-SNAPSHOT</version>
+	<version>1.0.0</version>
 	<packaging>pom</packaging>
 
 	<name>commons</name>
@@ -22,11 +22,13 @@
 
 	<!-- properties -->
 	<properties>
-		<!-- update in 20240628 -->
+		<!-- update in 20240814 -->
 		<!-- dependencies version -->
 		<!-- apache commons -->
 		<!-- https://commons.apache.org/ -->
 		<commons-io.version>2.16.1</commons-io.version>
+		<commons-logging.version>1.3.3</commons-logging.version>
+		<commons-text.version>1.12.0</commons-text.version>
 		<commons-validator.version>1.9.0</commons-validator.version>
 		<jakarta.servlet-api.version>6.1.0</jakarta.servlet-api.version>
 		<junit-jupiter.version>5.10.3</junit-jupiter.version>
@@ -48,6 +50,20 @@
 				<groupId>commons-io</groupId>
 				<artifactId>commons-io</artifactId>
 				<version>${commons-io.version}</version>
+			</dependency>
+
+			<!-- commons-logging -->
+			<dependency>
+				<groupId>commons-logging</groupId>
+				<artifactId>commons-logging</artifactId>
+				<version>${commons-logging.version}</version>
+			</dependency>
+
+			<!-- commons-text -->
+			<dependency>
+				<groupId>org.apache.commons</groupId>
+				<artifactId>commons-text</artifactId>
+				<version>${commons-text.version}</version>
 			</dependency>
 
 			<!-- commons-validator -->
