@@ -10,6 +10,7 @@
         - |-- ChinaMobilePhoneNumberRegex
       + |-- utils
         - |-- JvmUtils
+        - |-- SystemPropertiesUtils
       + |-- validator
         - |-- ChinaMobilePhoneNumberValidator
         - |-- IPValidator
@@ -19,6 +20,7 @@
     - Bits.png
     - Bytes.png
 
+
 + src/test/java
     + com.github.doraeven.commons.test
       + |-- format
@@ -27,6 +29,7 @@
         - |-- RefTest
       + |-- utils
         - |-- JvmUtilsTest
+        - |-- SystemPropertiesUtilsTest
       + |-- validator
         - |-- ChinaMobilePhoneNumberValidatorTest
         - |-- IPValidatorTest
@@ -36,4 +39,4 @@
     - commons-logging.properties
     - junit-platform.properties
     - simplelog.properties
-    
+
