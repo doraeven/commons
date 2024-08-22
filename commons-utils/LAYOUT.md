@@ -11,6 +11,7 @@
       + |-- utils
         - |-- JvmUtils
         - |-- SystemPropertiesUtils
+        - |-- UUIDUtils
       + |-- validator
         - |-- ChinaMobilePhoneNumberValidator
         - |-- IPValidator
@@ -30,6 +31,7 @@
       + |-- utils
         - |-- JvmUtilsTest
         - |-- SystemPropertiesUtilsTest
+        - |-- UUIDUtilsTest
       + |-- validator
         - |-- ChinaMobilePhoneNumberValidatorTest
         - |-- IPValidatorTest

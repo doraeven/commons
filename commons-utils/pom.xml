@@ -20,6 +20,12 @@
 
 	<!-- dependencies -->
 	<dependencies>
+		<!-- commons-codec -->
+		<dependency>
+			<groupId>commons-codec</groupId>
+			<artifactId>commons-codec</artifactId>
+		</dependency>
+
 		<!-- commons-io -->
 		<dependency>
 			<groupId>commons-io</groupId>
